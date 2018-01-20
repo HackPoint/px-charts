@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'nga-root',
+  selector: 'px-charts-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

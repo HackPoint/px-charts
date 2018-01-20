@@ -7,7 +7,8 @@
 
 ### TODO:
 1. Add redux or any state management
-2. Add UX/UI framework
+2. UI Framework 
+_```https://mdbootstrap.com/angular/5min-quickstart/```_
 
 ###License:
 MIT
