@@ -118,13 +118,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "nga",
+      "px",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "nga",
+      "px",
       "kebab-case"
     ],
     "use-input-property-decorator": true,

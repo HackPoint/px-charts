@@ -5,11 +5,19 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BarChartComponent } from './bar-chart/bar-chart.component';
+import { LineChartComponent } from './line-chart/line-chart.component';
+import { PieChartComponent } from './pie-chart/pie-chart.component';
+import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BarChartComponent,
+    LineChartComponent,
+    PieChartComponent,
+    DoughnutChartComponent
   ],
   imports: [
     BrowserModule,

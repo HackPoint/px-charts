@@ -6,6 +6,7 @@
     "build": "ng build",
     "start": "ng serve",
     "predev": "tsc -p server",
+    "debug": "concurrently \"tsc -p server && node --inspect dist/server\"",
     "dev": "concurrently \"ng serve --aot false --open -pc proxy.conf.json --open\" \"tsc -w -p server\" \"nodemon dist/server/index.js\"",
     "prod": "concurrently \"ng build --aot -prod && tsc -p server && node dist/server/index.js\"",
     "test": "ng test --browser ChromeHeadless --single-run",
@@ -13,8 +14,7 @@
     "lintbe": "tslint server/**/**.ts{,x}",
     "watch": "ng test --browser ChromeHeadless",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "echo 'patching @angular/cli' & cp ./other/ng ./node_modules/@angular/cli/bin"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
